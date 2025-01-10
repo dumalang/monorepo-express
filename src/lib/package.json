@@ -1,6 +1,6 @@
 {
   "name": "lib",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "main": "index.ts",
   "scripts": {
@@ -12,5 +12,6 @@
   },
   "publishConfig": {
     "registry": "http://localhost:4873"
-  }
+  },
+  "gitHead": "3e80d435fcc42a65bbef090f29cb22be44b5f33c"
 }
