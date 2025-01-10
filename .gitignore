@@ -2,3 +2,5 @@ node_modules/
 build/
 lerna-debug.log
 src/*/.env
+.idea/
+.npmrc
