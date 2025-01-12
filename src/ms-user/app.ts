@@ -1,7 +1,8 @@
 import dotenv from 'dotenv';
 import express, {Express} from 'express';
 import bodyParser from 'body-parser';
-import {appConfig} from "../lib/config/app_config";
+import lib from '@org/lib';
+const {appConfig} = lib.config;
 
 dotenv.config();
 
@@ -12,7 +13,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.get('/', (req, res) => {
   res.send({
-    serviceName: appConfig.name
+    serviceName: appConfig.name()
   });
 });
 

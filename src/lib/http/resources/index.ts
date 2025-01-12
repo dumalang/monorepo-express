@@ -1,5 +1,1 @@
-import * as baseResource from './base_resource'
-
-export {
-  baseResource
-}
+export * from './base_resource'

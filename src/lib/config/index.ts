@@ -1,5 +1,1 @@
-import * as appConfig from './app_config'
-
-export {
-  appConfig
-}
+export * from './app_config'

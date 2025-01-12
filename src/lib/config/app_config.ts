@@ -1,8 +1,10 @@
+import {env} from "../utils/env";
+
 const appConfig = {
-  name: process.env.APP_NAME,
-  port: process.env.APP_PORT,
+  name: () => env('APP_NAME', 'APP_NAME'),
+  port: () => env('APP_PORT', '3000'),
 }
 
 export {
   appConfig
-}
+};

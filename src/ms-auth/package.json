@@ -1,5 +1,5 @@
 {
-  "name": "ms-auth",
+  "name": "@org/ms-auth",
   "version": "0.0.1",
   "description": "> TODO: description",
   "author": "Jimmy Richard Timotius Dumalang <jimmydumalang@gmail.com>",
@@ -8,7 +8,9 @@
   "main": "server.ts",
   "scripts": {
     "start": "ts-node server.ts",
-    "dev": "nodemon server.ts"
+    "dev": "nodemon server.ts",
+    "build": "tsc",
+    "build-backup": "tsc -b && cp -r ../../node_modules ../../dist/src/ms-auth/node_modules"
   },
   "dependencies": {
     "dotenv": "^16.4.7",

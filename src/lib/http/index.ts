@@ -1,5 +1,1 @@
-import * as resources from 'resources'
-
-export {
-  resources
-}
+export * from './resources'
