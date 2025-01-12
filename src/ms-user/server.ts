@@ -1,5 +1,5 @@
 import app from './app';
-import lib from '@org/lib';
+import lib from '../lib';
 const {appConfig} = lib.config;
 
 const port = appConfig.port() || 3001;

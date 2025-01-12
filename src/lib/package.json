@@ -9,6 +9,11 @@
   },
   "author": "",
   "dependencies": {
-    "moment": "^2.30.1"
+    "moment": "^2.30.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0"
   }
 }

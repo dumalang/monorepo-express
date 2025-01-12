@@ -12,11 +12,6 @@
     "build": "tsc",
     "build-backup": "tsc -b && cp -r ../../node_modules ../../dist/src/ms-auth/node_modules"
   },
-  "dependencies": {
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2"
-  },
-  "devDependencies": {
-    "@types/express": "^5.0.0"
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }

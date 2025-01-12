@@ -6,8 +6,7 @@
   ],
   "scripts": {
     "start": "lerna run start --stream --loglevel verbose",
-    "start:ms-auth": "dotenv -e .env.ms-auth node -r tsconfig-paths/register ./dist/src/ms-auth/server.js",
-    "start:ms-auth-2": "cd ./dist/src/ms-auth && dotenv -e .env.ms-auth npm run start",
+    "start:ms-auth": "dotenv -e .env.ms-auth node ./dist/src/ms-auth/server.js",
     "start:ms-user": "dotenv -e .env.ms-user node ./dist/src/ms-user/server.js",
     "dev": "lerna run dev --stream --loglevel verbose",
     "lint": "gts lint",

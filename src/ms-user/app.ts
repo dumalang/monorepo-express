@@ -1,20 +1,5 @@
-import dotenv from 'dotenv';
-import express, {Express} from 'express';
-import bodyParser from 'body-parser';
-import lib from '@org/lib';
-const {appConfig} = lib.config;
+import lib from '../lib';
+const {initExpress} = lib.server;
 
-dotenv.config();
-
-const app: Express = express();
-
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: true}));
-
-app.get('/', (req, res) => {
-  res.send({
-    serviceName: appConfig.name()
-  });
-});
-
+const app = initExpress();
 export default app;
