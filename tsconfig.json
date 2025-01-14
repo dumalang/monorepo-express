@@ -9,7 +9,12 @@
       "es2016",
       "dom"
     ],
-    "baseUrl": "."
+    "baseUrl": ".",
+    "paths": {
+      "@org/lib/*": [
+        "./src/lib/*"
+      ]
+    }
   },
   "include": [
     "src/**/*.ts",

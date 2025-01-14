@@ -18,9 +18,6 @@ const initExpress = (): Express => {
     });
   });
   return app;
-}
-
-export {
-  initExpress,
-  Express
 };
+
+export {initExpress, Express};

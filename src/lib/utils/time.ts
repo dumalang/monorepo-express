@@ -1,9 +1,7 @@
-import moment from "moment";
+import moment from 'moment';
 
 const now = () => {
   return moment().toISOString();
-}
+};
 
-export {
-  now
-}
+export {now};

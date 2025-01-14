@@ -1,1 +1,1 @@
-export * from './base_resource'
+export * from './base_resource';
